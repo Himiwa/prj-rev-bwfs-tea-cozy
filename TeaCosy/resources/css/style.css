@@ -1,0 +1,167 @@
+/* Universal Styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* HEADER*/
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 69px;
+  padding: 0px 10px;
+  margin: 0px 0px; /* Cant remove the space at the top between container and window*/
+  background-color: black;
+  display: inline-flex;
+  border-bottom: 1px solid seashell;
+}
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+}
+.navigation {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+nav {
+  width: 95%;
+  text-align: right;
+}
+
+.navigation a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-decoration: none;
+}
+/* MAIN*/
+
+main {
+  text-align:center;
+}
+
+/* Mission*/
+.intro {
+ width: 100%;
+ position: relative;
+ top: 69px;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+
+.mission {
+  display: flex;
+  background-image: url(../images/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+}
+
+.missionstatement {
+  width:1200px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Tea of the Month */
+.tea-container1 {
+  width: 100%;
+  position: relative;
+  top: 69px;
+  display: block;
+  text-align: center;
+}
+.tea-of-the-month {
+  width: 100%;
+  height: 150px;
+}
+.tea-container2 {
+  width: 100%;
+  position: relative;
+  top: 69px;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-teas { /*This would need two different contianers so two different formats? */
+width: 1000px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.image-tea {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/* Location*/
+.location-container {
+  position: relative;
+  top: 69px;
+  display: flex;
+  justify-content: center;
+  }
+
+  .Locations {
+    display: block;
+    justify-content: center;
+    align-content: flex-end;
+    background-image: url(../images/img-locations-background.jpg);
+    width: 1200px;
+    height: 500px;
+  }
+  .locationtitle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 85px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+  .addresses {
+      display: flex;
+      height: 400px;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 0 auto;
+  }
+.address {
+  background-color: black;
+  opacity: 1;
+  height: 300px;
+  width: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+/* FOOTER */
+footer {
+  text-align:center;
+  position: relative;
+  top: 69px;
+}
+.contact {
+  width: 100%;
+  height: 200px;
+}
+.copyright {
+  text-align: left;
+  margin: 0px 20px;
+}
